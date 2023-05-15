@@ -19,7 +19,7 @@ function App() {
              <Button style={{width:'60%'}} className='mx-auto mx-md-0 bg-info text-white' endIcon={<BsFillArrowRightCircleFill style={{color:'brown'}} />}>Start Shopping</Button>
           </div>
           <div className='mt-4 mt-md-0 col-12 col-md-8'>
-            <img src={happywoman} className='img-fluid rounded' style={{width:'100%',objectFit:'cover',height:'20rem'}} />
+            <img src={happywoman} alt="happywoman" className='img-fluid rounded' style={{width:'100%',objectFit:'cover',height:'20rem'}} />
           </div>
        </div>
        <div className='container row p-1 my-2 mx-auto shadow rounded ' style={{minHeight:'3rem',height:'auto'}}>
